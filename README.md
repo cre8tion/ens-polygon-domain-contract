@@ -14,6 +14,15 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 
+## Testing
+
+```shell
+npx hardhat run scripts/run.js
+
+```
+
+## Deployment
+
 ```shell
 npx hardhat run scripts/deploy.js --network mumbai
 ```
@@ -21,6 +30,7 @@ npx hardhat run scripts/deploy.js --network mumbai
 ## A note on contract redeploys
 
 Let's say you want to change your contract. You'd need to do 3 things:
-We need to deploy it again.
-We need to update the contract address on our frontend.
-We need to update the abi file on our frontend.
+
+1. We need to deploy it again.
+2. We need to update the contract address on our frontend.
+3. We need to update the abi file on our frontend.
